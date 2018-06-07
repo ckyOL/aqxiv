@@ -1,6 +1,6 @@
-# navpage
+# aqXiv
 
-> navgation page
+My personal navigation page with [bulma](https://bulma.io)
 
 ## Build Setup
 
