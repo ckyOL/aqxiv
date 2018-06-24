@@ -37,6 +37,12 @@
               <a class="navbar-item" href="https://chart.ckyol.moe">
                 Chart
               </a>
+              <a class="navbar-item" href="https://pan.ckyol.moe">
+                Disk
+              </a>
+              <a class="navbar-item" href="https://arui.ckyol.moe">
+                Aria
+              </a>
             </div>
           </div>
         </div>
