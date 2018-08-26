@@ -13,35 +13,8 @@
           </div>
           <div id="navbarMenuHero" class="navbar-menu" v-bind:class="{ 'is-active' : showNav }">
             <div class="navbar-end">
-              <a class="navbar-item" href="https://paper.ckyol.moe">
-                Paper
-              </a>
-              <a class="navbar-item" href="https://blog.ckyol.moe">
-                Blog
-              </a>
-              <a class="navbar-item" href="https://git.ckyol.moe">
-                Git
-              </a>
-              <a class="navbar-item" href="https://bbs.ckyol.moe">
-                BBS
-              </a>
-              <a class="navbar-item" href="https://rss.ckyol.moe">
-                RSS
-              </a>
-              <a class="navbar-item" href="https://port.ckyol.moe">
-                Docker
-              </a>
-              <a class="navbar-item" href="https://netdata.ckyol.moe">
-                NetData
-              </a>
-              <a class="navbar-item" href="https://chart.ckyol.moe">
-                Chart
-              </a>
-              <a class="navbar-item" href="https://pan.ckyol.moe">
-                Disk
-              </a>
-              <a class="navbar-item" href="https://arui.ckyol.moe">
-                Aria
+              <a v-for="item of linkData" v-bind:key="item" class="navbar-item" v-bind:href="item.link">
+                  {{ item.name }}
               </a>
             </div>
           </div>
@@ -64,7 +37,19 @@ export default {
   name: 'App',
   data: function () {
     return {
-      showNav: false
+      showNav: false,
+      linkData: [
+        {name: 'Paper', link: 'https://paper.ckyol.moe'},
+        {name: 'Blog', link: 'https://blog.ckyol.moe'},
+        {name: 'Git', link: 'https://git.ckyol.moe'},
+        {name: 'BBS', link: 'https://bbs.ckyol.moe'},
+        {name: 'RSS', link: 'https://rss.ckyol.moe'},
+        {name: 'Docker', link: 'https://port.ckyol.moe'},
+        {name: 'NetData', link: 'https://netdata.ckyol.moe'},
+        {name: 'Chart', link: 'https://chart.ckyol.moe'},
+        {name: 'Disk', link: 'https://pan.ckyol.moe'},
+        {name: 'Aria', link: 'https://arui.ckyol.moe'}
+      ]
     }
   }
 }
