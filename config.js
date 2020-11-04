@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Aerial', // <title>
+  siteTitle: 'h0m3', // <title>
   manifestName: 'Aerial',
   manifestShortName: 'Portfolio', // max 12 characters
   manifestStartUrl: '/',
@@ -10,28 +10,48 @@ module.exports = {
   pathPrefix: `/gatsby-starter-aerial/`, // This path is subpath of your hosting https://domain/portfolio
   // social
 
-  authorName: 'Anubhav Srivastava',
-  authorHeading: 'Web Developer - JAMStack - Open Source enthusiast',
+  authorName: 'h0m3',
+  authorHeading: 'w0w, 5vch h0m3, v3ry fvn',
   authorSocialLinks: [
     {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      icon: 'atom',
+      name: 'Paper',
+      url: 'https://paper.ckyol.moe',
     },
     {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      icon: 'blog',
+      name: 'Blog',
+      url: 'https://blog.ckyol.moe',
     },
     {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      icon: 'book-reader',
+      name: 'Reader',
+      url: 'https://rss.ckyol.moe',
     },
     {
-      icon: 'fa-envelope-o',
-      name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      icon: 'anchor',
+      name: 'Port',
+      url: 'https://port.ckyol.moe',
+    },
+    {
+      icon: 'digital-tachograph',
+      name: 'NetData',
+      url: 'https://netdata.ckyol.moe',
+    },
+    {
+      icon: 'chart-area',
+      name: 'Chart',
+      url: 'https://chart.ckyol.moe',
+    },
+    {
+      icon: 'hdd',
+      name: 'Disk',
+      url: 'https://pan.ckyol.moe',
+    },
+    {
+      icon: 'users',
+      name: 'Team',
+      url: 'https://team.ckyol.moe',
     },
   ],
 };

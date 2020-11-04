@@ -1,4 +1,5 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import config from '../../config';
 export default function Footer() {
@@ -8,12 +9,13 @@ export default function Footer() {
       <p>{config.authorHeading}</p>
       <nav>
         <ul>
-          {config.authorSocialLinks.map(social => {
+          {config.authorSocialLinks.map((social, index) => {
             const { icon, name, url } = social;
             return (
-              <li>
-                <a href={url} class={`icon ${icon}`}>
-                  <span class="label">{name}</span>
+              <li key={index}>
+                <a href={url} className='icon'>
+                  <FontAwesomeIcon icon={icon} size={'2x'}/>
+                  <span>{name}</span>
                 </a>
               </li>
             );
